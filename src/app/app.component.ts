@@ -17,7 +17,7 @@ import {BlogService} from './services/blog.service';
 export class AppComponent implements OnInit {
 
   constructor(
-    protected blogService: BlogService
+    public blogService: BlogService
   ) {}
 
   ngOnInit() {
