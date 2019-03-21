@@ -7,7 +7,7 @@ import {BlogService} from './services/blog.service';
   selector: 'fm-root',
   template: `
     <div class="container">
-      <h1>Blog</h1>
+      <h1>Blog Post v 1.0.0</h1>
       <fm-form (onSubmit)="savePost($event)"></fm-form>
       <fm-list [posts]="blogService.blogPost$ | async"></fm-list>
     </div>
